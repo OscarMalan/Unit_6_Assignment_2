@@ -1,0 +1,39 @@
+h1 {
+    color: #000000;
+    font-size: 45px;
+}
+
+body {
+    background-color: #1d2225;
+}
+
+/* =========================================================
+Settings for the Navigation bar at the top and header at the top*/
+header {
+    position: sticky; top: 0px;
+    background-color: #bb5215;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  li a:hover {
+    background-color: #aa4b14;
+  }
+  /* =========================================================
