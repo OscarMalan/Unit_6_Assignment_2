@@ -1,11 +1,18 @@
 p {
-  color: aliceblue;
   font-size: 25px;
   font-family: 'Lato', sans-serif;
 }
 
 body {
-    background-color: #1d2225;
+    background-color: #ceb35c;
+    color: rgb(22, 22, 22);
+}
+
+/* =========================================================
+This css is used for controlling dark mode, allowing the user to have more visual options*/
+.Dark_Mode {
+  background-color: #1d2225;
+  color: aliceblue;
 }
 
 /* =========================================================
@@ -45,4 +52,5 @@ header {
     background-color: #aa4b14;
     font-family: 'Merriweather Sans', sans-serif;
   }
+
   /* =========================================================
