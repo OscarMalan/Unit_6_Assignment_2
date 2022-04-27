@@ -1,6 +1,12 @@
-p {
+h4 {
   color: #1d2225;
   font-size: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+h6 {
+  color: #1d2225;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
 }
 
