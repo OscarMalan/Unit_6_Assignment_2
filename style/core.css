@@ -1,26 +1,11 @@
 p {
-<<<<<<< HEAD
   color: #1d2225;
-=======
->>>>>>> fc0e9d3ee210a5e00c32cf6fadbe05c06194829a
   font-size: 25px;
   font-family: 'Lato', sans-serif;
 }
 
 body {
-<<<<<<< HEAD
     background-color: #727272;
-=======
-    background-color: #ceb35c;
-    color: rgb(22, 22, 22);
-}
-
-/* =========================================================
-This css is used for controlling dark mode, allowing the user to have more visual options*/
-.Dark_Mode {
-  background-color: #1d2225;
-  color: aliceblue;
->>>>>>> fc0e9d3ee210a5e00c32cf6fadbe05c06194829a
 }
 
 /* =========================================================
@@ -58,7 +43,6 @@ Settings for the Navigation bar at the top and header at the top*/
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
   }
-<<<<<<< HEAD
 /* =========================================================
 This section is for dark mode. The default shall be light
 mode and can be changed by clicking a button */
@@ -66,7 +50,3 @@ mode and can be changed by clicking a button */
     background-color: #1d2225;
     
   }
-=======
-
-  /* =========================================================
->>>>>>> fc0e9d3ee210a5e00c32cf6fadbe05c06194829a
