@@ -1,41 +1,38 @@
 p {
-  color: aliceblue;
+  color: #1d2225;
   font-size: 25px;
   font-family: 'Lato', sans-serif;
 }
 
 body {
-    background-color: #1d2225;
+    background-color: #727272;
 }
 
 /* =========================================================
 Settings for the Navigation bar at the top and header at the top*/
-header {
+  header {
     position: sticky; top: 0px;
     background-color: #bb5215;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
   }
-  
   h1 {
     color: #000000;
     font-size: 45px;
-  }
-  
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+  } 
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
+  }  
   li {
     float: left;
   }
   li a {
     display: block;
     color: #1d2225;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -44,5 +41,12 @@ header {
   li a:hover {
     background-color: #aa4b14;
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
   }
-  /* =========================================================
+/* =========================================================
+This section is for dark mode. The default shall be light
+mode and can be changed by clicking a button */
+  .Dark_Mode {
+    background-color: #1d2225;
+    
+  }
