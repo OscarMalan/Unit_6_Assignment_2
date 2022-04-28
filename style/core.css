@@ -1,13 +1,12 @@
 p {
   color: #1d2225;
-  /* color: p_Color; */
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
 }
 
-h6 {
+h4 {
   color: #1d2225;
-  font-size: 20px;
+  font-size: 28px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -52,8 +51,17 @@ Settings for the Navigation bar at the top and header at the top*/
   }
 /* =========================================================
 This section is for dark mode. The default shall be light
-mode and can be changed by clicking a button 
+mode and can be changed by clicking a button */
   .Dark_Mode {
     background-color: #1d2225;
-     
-  }/*
+    color: #f0f8ff;
+  }
+  .Dark_Mode_Header {
+    position: sticky; top: 0px;
+    background-color: #aa4b14;
+  }
+  .Dark_Mode_hover {
+    background-color: #86390d;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+  }
