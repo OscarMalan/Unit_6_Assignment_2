@@ -1,0 +1,72 @@
+/* =========================================================
+This section is for light mode. The default shall be light
+mode and can be changed by clicking a button */
+p {
+  color: #1d2225;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+h4 {
+  color: #1d2225;
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+}
+
+h5 {
+  color: #f0f8ff;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #727272;
+}
+
+.Paragraph_Links {
+  color: #1d2225;
+  font-size: 22px;
+  text-decoration: none;
+}
+/* =========================================================
+Settings for the Navigation bar at the top and header at the top*/
+  header {
+    position: sticky; top: 0px;
+    background-color: #bb5215;
+  }
+  h1 {
+    color: #000000;
+    font-size: 45px;
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+  } 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }  
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: #1d2225;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+  }
+  li a:hover {
+    background-color: #aa4b14;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+  }
+
+  button {
+    width: 64px;
+    height: 64px;
+    transform: translate(880px);
+    border: none;
+  }
