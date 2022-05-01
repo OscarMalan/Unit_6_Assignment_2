@@ -13,10 +13,21 @@ h4 {
   font-family: 'Lato', sans-serif;
 }
 
+h5 {
+  color: #f0f8ff;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
 body {
     background-color: #727272;
 }
 
+.Paragraph_Links {
+  color: #1d2225;
+  font-size: 22px;
+  text-decoration: none;
+}
 /* =========================================================
 Settings for the Navigation bar at the top and header at the top*/
   header {
@@ -56,6 +67,6 @@ Settings for the Navigation bar at the top and header at the top*/
   button {
     width: 64px;
     height: 64px;
-    transform: translate(600px);
+    transform: translate(880px);
     border: none;
   }
