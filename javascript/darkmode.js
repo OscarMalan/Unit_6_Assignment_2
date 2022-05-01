@@ -20,17 +20,13 @@ function DarkMode() {
     {
         document.getElementById("Mode").href = "../style/dark_mode.css";
         Dark_Mode = true;
-        console.log("dark mode selected");
         document.cookie = "Dark_Mode?=dark";
-        console.log(document.cookie);
     }
     else if (Dark_Mode == true)
     {
         document.getElementById("Mode").href = "../style/light_mode.css";
         Dark_Mode = false;
-        console.log("light mode selected");
         document.cookie = "Dark_Mode?=light";
-        console.log(document.cookie)
     }
     else
     {
