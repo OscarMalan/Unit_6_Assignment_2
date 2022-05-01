@@ -52,3 +52,10 @@ header {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
   }
+
+  button {
+    width: 64px;
+    height: 64px;
+    transform: translate(600px);
+    border: none;
+  }

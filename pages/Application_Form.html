@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--=================================================================================-->
-    <!-- This is where all of the fonts are imported so that all of the text looks right -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Merriweather+Sans:ital,wght@1,700&family=Merriweather:wght@700&display=swap" rel="stylesheet">    
-    <!--=================================================================================-->
-    <link id="Mode" rel="stylesheet" href="../style/light_mode.css"/>
-    <link rel="stylesheet" href="../style/application_form.css">
-    <link rel="icon" href="../style/Hot Bean.png">
-    <title>Application Form</title>
-</head>
-<body>
-    <header>
-        <!-- This is the header that also serves as the nav bar-->
-        <h1>Hot Beans</h1>
-        <ul>
-            <li><a class="active" href="Home_Page.html">Home</a></li>
-            <li><a class="active" href="Team_Page.html">The Team</a></li>
-            <li><a class="active" href="Application_Form.html">Application Form</a></li>
-            <li><a class="active" href="About_Page.html">About</a></li>
-        </ul>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=================================================================================-->
+        <!-- This is where all of the fonts are imported so that all of the text looks right -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Merriweather+Sans:ital,wght@1,700&family=Merriweather:wght@700&display=swap" rel="stylesheet">    
+        <!--=================================================================================-->
+        <link id="Mode" rel="stylesheet" href="../style/light_mode.css"/>
+        <link rel="stylesheet" href="../style/application_form.css">
+        <link rel="icon" href="../style/Hot Bean.png">
+        <title>Home</title>
+    </head>
+    <body>
+        <header>
+            <!-- This is the header that also serves as the nav bar-->
+            <h1>Hot Beans</h1>
+            <ul>
+                <li><a class="active" href="Home_Page.html">Home</a></li>
+                <li><a class="active" href="Team_Page.html">The Team</a></li>
+                <li><a class="active" href="Application_Form.html">Application Form</a></li>
+                <li><a class="active" href="About_Page.html">About</a></li>
+            </ul>
+            <!-- Changes the mode, also makes the option an image -->
+            <button id="Dark_Mode_Button" onclick="DarkMode()" style="background: url(../style/Darkmode_Lightmode.png);"></button>
+        </header>
     <h4>Application Form</h4>
     <p>For applying to work here, please fill out this form so that we can contact you:</p>
     <form action="Application">
-        <input id="email" type="email" placeholder="Enter" required>
+        <input id="email" type="email" placeholder="Email" required>
         <input type="text" id="name" placeholder="Name" required>
         <hr>
-        <button formaction="Application_Processed.html" >Submit</button>
+        <button id="Submit_Button" formaction="Application_Processed.html" >Submit</button>
     </form>
     <script src="../javascript/darkmode.js"></script>
 </body>

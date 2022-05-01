@@ -53,3 +53,9 @@ Settings for the Navigation bar at the top and header at the top*/
     font-size: 20px;
   }
 
+  button {
+    width: 64px;
+    height: 64px;
+    transform: translate(600px);
+    border: none;
+  }
