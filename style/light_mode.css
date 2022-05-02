@@ -3,19 +3,19 @@ This section is for light mode. The default shall be light
 mode and can be changed by clicking a button */
 p {
   color: #1d2225;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Lato', sans-serif;
 }
 
 h4 {
   color: #1d2225;
-  font-size: 28px;
+  font-size: 30px;
   font-family: 'Lato', sans-serif;
 }
 
 h5 {
   color: #1d2225;
-  font-size: 24px;
+  font-size: 26px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -25,7 +25,7 @@ body {
 
 .Paragraph_Links {
   color: #1d2225;
-  font-size: 22px;
+  font-size: 28px;
   text-decoration: none;
 }
 /* =========================================================
@@ -36,7 +36,7 @@ Settings for the Navigation bar at the top and header at the top*/
   }
   h1 {
     color: #000000;
-    font-size: 45px;
+    font-size: 47px;
     text-align: left;
     font-family: 'Bebas Neue', cursive;
   } 
@@ -55,13 +55,13 @@ Settings for the Navigation bar at the top and header at the top*/
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Merriweather', serif;
   }
   li a:hover {
     background-color: #aa4b14;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   button {

@@ -3,19 +3,19 @@ This section is for dark mode. The default shall be light
 mode and can be changed by clicking a button */
 p {
     color: #f0f8ff;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Lato', sans-serif;
   }
   
   h4 {
     color: #f0f8ff;
-    font-size: 28px;
+    font-size: 30px;
     font-family: 'Lato', sans-serif;
   }
 
   h5 {
     color: #f0f8ff;
-    font-size: 24px;
+    font-size: 26px;
     font-family: 'Lato', sans-serif;
   }
   
@@ -25,7 +25,7 @@ p {
 
   .Paragraph_Links {
     color: #f0f8ff;
-    font-size: 22px;
+    font-size: 24px;
     text-decoration: none;
   }
   /* =========================================================
@@ -36,7 +36,7 @@ header {
   }
   h1 {
     color: #000000;
-    font-size: 45px;
+    font-size: 47px;
     text-align: left;
     font-family: 'Bebas Neue', cursive;
   } 
@@ -55,13 +55,13 @@ header {
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Merriweather', serif;
   }
   li a:hover {
     background-color: #86390d;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   button {
